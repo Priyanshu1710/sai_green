@@ -1,0 +1,37 @@
+.btn-dark {
+  font-size: 1.5rem;
+  border: 2px solid var(--color-primary);
+  padding: 1rem 2rem;
+  background-color: var(--color-primary);
+  color: #fff;
+  border-radius: 1rem;
+  margin-right: 1rem;
+  transition: transform 0.5s;
+
+  &:hover {
+    color: var(--color-primary);
+    background-color: transparent;
+  }
+  &:active {
+    transform: translateY(0.3rem);
+  }
+}
+.btn-light {
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: 2px solid var(--color-primary);
+  padding: 1rem 2rem;
+  color: var(--color-primary);
+  border-radius: 1rem;
+  margin-right: 1rem;
+  transition: transform 0.5s;
+
+  &:hover {
+    color: #fff;
+    background-color: orangered;
+    border: 2px solid orangered;
+  }
+  &:active {
+    transform: translateY(0.3rem);
+  }
+}

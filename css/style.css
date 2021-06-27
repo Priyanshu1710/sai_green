@@ -48,6 +48,9 @@ body {
       .header__nav-links:active {
         transform: translateY(0.3rem); }
 
+#btn {
+  font-size: 1.5rem; }
+
 .main {
   display: flex;
   height: 93vh; }
@@ -411,7 +414,7 @@ footer {
 .btn-dark {
   font-size: 2rem;
   border: 2px solid var(--color-primary);
-  padding: 1rem 2rem;
+  padding: 1rem 3rem;
   background-color: var(--color-primary);
   color: #fff;
   border-radius: 1rem;
@@ -427,7 +430,7 @@ footer {
   font-size: 2rem;
   background-color: transparent;
   border: 2px solid var(--color-primary);
-  padding: 1rem 2rem;
+  padding: 1rem 3rem;
   color: var(--color-primary);
   border-radius: 1rem;
   margin-right: 1rem;

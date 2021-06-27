@@ -1,13 +1,14 @@
 //////////////////////////////
 //header
-
+.container {
+  max-width: 140rem;
+  margin: 0 auto;
+}
 // maxwidth
 // padding
 // margin
 
 .header {
-  max-width: 140rem;
-  margin: 0 auto;
   font-size: 2rem;
   padding: 0 2rem;
   // font-family: "Ubuntu", sans-serif;
@@ -47,28 +48,26 @@
   }
 }
 //////////////////////////////////
-//main box
+//main-1
 .main {
-  max-width: 140rem;
-  margin: 0 auto;
   display: flex;
   height: 93vh;
 
   .main__box-1 {
-    flex: 1;
+    flex: 1.5;
     display: flex;
     flex-direction: column;
-    margin: 10rem 0 5rem 0;
-    // justify-content: center;
-    // align-items: flex-start;
+    // margin: 10rem 0 5rem 0;
+    justify-content: center;
+
     &-heading {
       font-size: 7rem;
       width: 85%;
-      margin: 1rem 0;
+      // margin: 1rem 0;
       line-height: 1;
       font-family: "Poppins", sans-serif;
       font-weight: 800;
-      letter-spacing: 0.2rem;
+      // letter-spacing: 0.2rem;
 
       animation: moveDown 1.2s;
     }
@@ -81,6 +80,7 @@
       letter-spacing: 0.2rem;
       line-height: 1.4;
       animation: moveLeft 2s;
+      padding: 3rem 0;
     }
     &-button {
       // margin-left: 5rem;
@@ -92,13 +92,13 @@
     &-img {
       display: flex;
       align-items: center;
-      align-content: center;
+
       //   justify-content: center;
       height: 100%;
     }
     &-photo {
-      width: 70%;
-      margin-left: 5rem;
+      // width: 70%;
+      // margin-left: 5rem;
     }
   }
 }
@@ -138,12 +138,9 @@
 //Section-2
 
 .special {
-  max-width: 140rem;
-
   display: flex;
   justify-content: space-between;
-  max-width: 120rem;
-  margin: 0 auto;
+  // max-width: 120rem;
   font-family: "Ubuntu", sans-serif;
   // height: 50vh;
   // font-size: 2.5rem;
@@ -178,13 +175,13 @@
 //////////////////////////////////
 //Section-3
 .menu {
-  max-width: 140rem;
-  margin: 0 auto;
+  // max-width: 140rem;
+  // margin: 0 auto;
   display: flex;
   justify-content: center;
   margin-top: 5rem;
   &__box {
-    flex: 0 0 18%;
+    flex: 0 0 20%;
     margin: 1rem;
     box-shadow: 0rem 0.2rem 1.5rem rgba(0, 0, 0, 0.1);
     transition: all 0.5s;
@@ -218,7 +215,7 @@
   }
   &__name {
     font-size: 2rem;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
   }
   &__star {
     color: var(--color-primary);
@@ -264,9 +261,10 @@
   text-align: center;
   font-family: "Poppins", sans-serif;
   margin-top: 10rem;
+  justify-content: center;
   &__services {
-    max-width: 140rem;
-    margin: 0 auto;
+    // max-width: 140rem;
+    // margin: 0 auto;
   }
   &__heading {
     font-size: 2.5rem;
@@ -276,8 +274,52 @@
   }
 }
 
+/////////////////////////////
+// section -5
+.animation {
+  &__container {
+    display: flex;
+    align-items: center;
+    &-1 {
+      flex: 1.5;
+      &-span {
+        font-size: 3rem;
+        color: var(--color-primary);
+      }
+      &-heading {
+        font-weight: 800;
+        font-size: 3rem;
+        letter-spacing: 2px;
+      }
+      &-paira {
+        font-size: 1.5rem;
+        width: 75%;
+        letter-spacing: 1.5px;
+        padding: 3rem 0;
+      }
+    }
+
+    &-2 {
+      flex: 1;
+      &-animation {
+      }
+    }
+  }
+  .animation__container-part-2 {
+    flex-direction: row-reverse;
+  }
+  &__container-1-part-2 {
+    flex: 1;
+  }
+  &__container-1-paira-part-2 {
+    width: 100%;
+  }
+  &__container-2-part-2 {
+    flex: 1.5;
+  }
+}
 /////////////////////////////////
-//section-5
+//section-6
 .special__menu-heading {
   font-size: 5rem;
   text-align: center;
@@ -286,21 +328,22 @@
   &::after {
     content: "";
     position: absolute;
-    top: 6rem;
-    left: 61rem;
+    top: 5.7rem;
+    left: 55rem;
     height: 4px;
     width: 30rem;
     display: block;
     background-color: orangered;
+    z-index: -1;
   }
 }
 .today__menu {
   display: flex;
-  max-width: 115rem;
-  margin: 8rem auto 15rem auto;
-  box-shadow: 0rem 1rem 4rem #00000057;
+  margin: 2rem 0rem;
+  box-shadow: 0rem 0.5rem 2rem rgba(0, 0, 0, 0.1);
   align-items: center;
   height: 30rem;
+  border-radius: 1rem;
   &-box {
     display: flex;
     justify-content: center;
@@ -314,13 +357,13 @@
   &-box2 {
     &-heading {
       font-size: 5rem;
-      margin-top: -7rem;
+      // margin-top: -7rem;
     }
     &-paira {
       font-size: 2rem;
-      /* width: 60%; */
+      width: 90%;
       color: #777;
-      margin: 2rem 0rem;
+      // margin: 2rem 0rem;
       letter-spacing: 1px;
     }
     &-price {
@@ -328,8 +371,18 @@
     }
   }
 }
+// part-2
+.reverse__menu {
+  flex-direction: row-reverse;
+  &-box2 {
+    padding-left: 5rem;
+    &-paira {
+      width: 100%;
+    }
+  }
+}
 /////////////////////////////////////
-// section-6
+// section-7
 .main__reverse {
   flex-direction: row-reverse;
   height: auto;
@@ -366,7 +419,7 @@
   }
 }
 //////////////////////////////////
-// section-7
+// section-8
 .discount {
   background-color: #fff;
   &__services {
@@ -447,13 +500,13 @@
   }
 }
 //////////////////////////
-//Footer or section-8
+//Footer or section-9
 footer {
   background-color: black;
   font-family: "Ubuntu", sans-serif;
   margin-top: 6rem;
   .footer-width {
-    max-width: 135rem;
+    max-width: 140rem;
     margin: auto;
     color: white;
     display: flex;
@@ -486,9 +539,11 @@ footer {
       // justify-content: center;
       margin: 2rem;
       &-icon {
-        width: 3rem;
-        height: auto;
+        font-size: 3rem;
         margin: 1rem;
+        :hover {
+          color: var(--color-primary);
+        }
       }
     }
   }
@@ -508,6 +563,7 @@ footer {
         color: #777;
         margin: 2rem;
         cursor: pointer;
+        width: 40%;
         &:hover {
           color: #42e942;
           // color: white;
@@ -518,17 +574,31 @@ footer {
   }
 }
 
-/////////////////////////////
-.animation {
-  &__container {
-    &-1 {
-      &-heading {
-      }
-      &-paira {
-      }
+/////////////////////////////////
+// catering
+.catering__main {
+  display: flex;
+  &-box1 {
+    flex: 1;
+    &-heading {
     }
-    &-2 {
-      &-animation {
+    &-paira {
+    }
+  }
+  &-box2 {
+    // flex: 2;
+    display: flex;
+
+    &-card1 {
+      &-img {
+      }
+      &-photo {
+      }
+      &-text {
+        &__heading {
+        }
+        &__paira {
+        }
       }
     }
   }

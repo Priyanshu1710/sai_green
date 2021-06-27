@@ -7,9 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,6 +15,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
     <link rel="stylesheet" href="css/style.css">
     <title>Sai | Green</title>
 </head>
@@ -173,7 +176,8 @@
             <section class="menu">
                 <div class="menu__box">
                     <div class="menu__img">
-                        <img src="img/spanic salad.png" alt="@burger" class="menu__photo">
+                        <img src="img/spanic salad.png" alt="@burger" class="menu__photo"
+                            style="width: 85%; margin: auto;">
                     </div>
                     <div class="menu__items">
                         <div class="menu__name">Spanic Salad</div>
@@ -259,21 +263,84 @@
 
             </section>
 
+        </div>
 
-            <!-- section-4  -->
-            <section class="excellence">
-                <div class="excellence__services">
-                    <div class="excellence__heading">
-                        <h1>Our Excillence Services</h1>
+        <!-- section-4  -->
+        <section class="excellence">
+            <div class="excellence__services">
+                <div class="excellence__heading">
+                    <h1>Our Excillence Services</h1>
+                </div>
+                <div class="excellence__paira">
+                    <p> We live in a service economy where great customes between a <br> service
+                        that's great and excillence service?</p>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <!-- section-5  -->
+            <div class="animation">
+                <div class="animation__container">
+                    <div class="animation__container-1">
+                        <h3 class="animation__container-1-span"><i class="fas fa-utensils"
+                                style="color: #009900;font-size: 3rem; padding-right: 1rem;"></i>Foody<span
+                                class="header__span"> Life</span>
+                        </h3>
+                        <h1 class="animation__container-1-heading">
+                            Delicious food of you life
+                        </h1>
+                        <p class="animation__container-1-paira">
+                            From your neighbourhood sushi spot to the burger you carve,choose from over <span
+                                class="header__span">+300k</span> local and national favorites across tha Bokaro city,
+                            Jarkhand.
+                        </p>
+                        <button class="btn-dark">Learn More</button>
                     </div>
-                    <div class="excellence__paira">
-                        <p> We live in a service economy where great customes between a <br> service
-                            that's great and excillence service?</p>
+                    <div class="animation__container-2">
+                        <div class="animation__container-2-animation">
+                            <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_tll0j4bb.json"
+                                background="transparent" speed="1" style="width: 500px; height: 450px;" loop autoplay>
+                            </lottie-player>
+
+                        </div>
                     </div>
                 </div>
-            </section>
 
-            <!-- section-5  -->
+
+
+                <!-- animation part-2  -->
+                <div class="animation__container animation__container-part-2">
+                    <div class="animation__container-1 animation__container-1-part-2">
+                        <h3 class="animation__container-1-span"><i class="fas fa-utensils"
+                                style="color: #009900;font-size: 3rem; padding-right: 1rem;"></i>Foody<span
+                                class="header__span">
+                                Life</span>
+                        </h3>
+                        <h1 class="animation__container-1-heading">
+                            Food Ordering
+                        </h1>
+                        <p class="animation__container-1-paira animation__container-1-paira-part-2 ">
+                            Keep healthy food readily available when you get hungry , you are more likely to eat the
+                            first things you see on the
+                            counter
+                        </p>
+                        <button class="btn-dark">Learn More</button>
+                    </div>
+                    <div class="animation__container-2 animation__container-2-part-2">
+                        <div class="animation__container-2-animation">
+                            <lottie-player src="https://assets7.lottiefiles.com/private_files/lf30_l54mdW.json"
+                                background="transparent" speed="1" style="width: 500px; height: 450px;" loop autoplay>
+                            </lottie-player>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- section-6 -->
+            <!-- part-1  -->
             <h1 class="special__menu-heading">Today <span class="header__span">Special</span> Menu</h1>
             <section class="today__menu">
                 <div class="today__menu-box">
@@ -289,12 +356,44 @@
                     ">$150</span> </div>
                 </div>
             </section>
+            <!-- part-2  -->
+
+            <section class="today__menu reverse__menu">
+                <div class="today__menu-box">
+                    <img class="today__menu-img">
+                    <img src="img/special.png" class="today__menu-photo" alt="@special">
+                </div>
+                <div class="today__menu-box2 reverse__menu-box2">
+                    <div class="today__menu-box2-heading">Platter</div>
+                    <div class="today__menu-box2-paira reverse__menu-box2-paira">Platter of grilled lamb, Italian
+                        cuisine Pizza Pasta Food Plate,
+                        healthy food, food, beef, roast Beef</div>
+                    <div class="today__menu-box2-price"> Price- <span style="
+                        color: #009900;
+                    ">$150</span> </div>
+                </div>
+            </section>
+
+
+            <!-- part-3  -->
+            <!-- <section class="today__menu">
+                <div class="today__menu-box">
+                    <img class="today__menu-img">
+                    <img src="img/special.png" class="today__menu-photo" alt="@special">
+                </div>
+                <div class="today__menu-box2">
+                    <div class="today__menu-box2-heading">Platter</div>
+                    <div class="today__menu-box2-paira">Platter of grilled lamb, Italian cuisine Pizza Pasta Food Plate,
+                        healthy food, food, beef, roast Beef</div>
+                    <div class="today__menu-box2-price"> Price- <span style="
+                        color: #009900;
+                    ">$150</span> </div>
+                </div>
+            </section> -->
 
 
 
-
-
-            <!-- section-6  -->
+            <!-- section-7  -->
 
 
             <main class="main main__reverse">
@@ -313,7 +412,7 @@
 
                 </div>
                 <div class="main__box-2">
-                    <div class="main__box-2-img main__reverse__photo">
+                    <div class="main__box-2-img main__reverse__photo" style="height: auto;">
                         <div class="main__reverse__photo-bg">
                             <img src="img/chef-1.png" alt="@food" class="main__box-2-photo main__reverse__photo-img"
                                 id="img">
@@ -322,25 +421,43 @@
                 </div>
             </main>
 
-            <!-- Animation part  -->
-            <!-- <div class="animation">
-                <div class="amination__container">
-                    <div class="animation__container-1">
-                        <h1 class="animation__container-1-heading">
-                            Delicious food of you life
-                        </h1>
-                        <p class="animation__container-1-paira">
-                            From your neighbourhood sushi spot to the burger you carve,choose from over <span class="header__span">+300k</span> local and national favorites across tha Bokaro city, Jarkhand.
+            <!-- cattering part -->
+            <div class="catering__main">
+                <div class="catering__main-box1">
+                    <div class="catering__main-box1-heading">
+                        <h1></h1> Choose the advantage of our products
+                    </div>
+                    <div class="catering__main-box1-paira">
+                        <p>A resturant that meet customer expectations for services such that they enjoy the experience.
                         </p>
                     </div>
-                    <div class="animation__container-2">
-                        <div class="animation__container-2-animation"></div>
+                </div>
+                <div class="catering__main-box2">
+                    <div class="catering__main-box2-card1">
+                        <div class="catering__main-box2-card1-img">
+                            <img src="" alt="" class="catering__main-box2-card1-photo">
+                        </div>
+                        <div class="catering__main-box2-card1-text">
+                            <div class="catering__main-box2-card1-text__heading">Free Delivery</div>
+                            <div class="catering__main-box2-card1-text__paira">We provide free delivery services within
+                                2km.</div>
+                        </div>
+                    </div>
+                    <div class="catering__main-box2-card2">
+                        <div class="catering__main-box2-card1-img">
+                            <img src="" alt="" class="catering__main-box2-card1-photo">
+                        </div>
+                        <div class="card1-text">
+                            <div class="catering__main-box2-card1-text__heading">Our Aim</div>
+                            <div class="catering__main-box2-card1-text__paira">Customes satisfaction is our first
+                                privority.</div>
+                        </div>
                     </div>
                 </div>
-            </div> -->
+            </div>
 
 
-            <!-- section-7  -->
+            <!-- section-8  -->
             <section class="excellence discount">
                 <div class="excellence__services discount__services">
                     <div class="excellence__heading discount__heading">
@@ -359,7 +476,7 @@
                             <div class="discount__offer-mail-down">Enter your email <span style="
                               
                                 font-size: 1.7rem;
-                            ">✉️</span> </div>
+                            "></span> </div>
                         </div>
                         <div class="discount__offer-btn ">
                             <button class="discount__offer-btn-box">Sign in</button>
@@ -367,50 +484,51 @@
                     </div>
                 </div>
             </section>
-            <!-- Footer  section-8  -->
-            <footer>
-                <div class="footer-width">
-                    <div class="footer-1">
-                        <div class="footer-1__name">Sai <span class="header__span">Green</span></div>
-                        <div class="footer-1__paira">
-                            <p>Food is any substance considered to provide nutritional support for an organism.</p>
-                        </div>
-                        <div class="footer-1__logo">
-                            <img src="./img/logo-1.png" alt="@insta" class="footer-1__logo-icon">
-                            <img src="img/logo-2.png" alt="@facebook" class="footer-1__logo-icon">
-                            <img src="img/logo-3.png" alt="@twitter" class="footer-1__logo-icon">
-                            <img src="img/logo-4.png" alt="@youtube" class="footer-1__logo-icon">
-                        </div>
+        </div>
+        <!-- Footer  section-9  -->
+        <footer>
+            <div class="footer-width">
+                <div class="footer-1">
+                    <div class="footer-1__name">Sai <span class="header__span">Green</span></div>
+                    <div class="footer-1__paira">
+                        <p>Food is any substance considered to provide nutritional support for an organism.</p>
                     </div>
-                    <div class="footer-2">
-                        <div class="footer-2__heading">Information</div>
-                        <div class="footer-2__items">
-                            <p class="footer-2__items-paira">About Us</p>
-                            <p class="footer-2__items-paira">More Search</p>
-                            <p class="footer-2__items-paira">Online Order</p>
-                            <p class="footer-2__items-paira">Support</p>
-                        </div>
-                    </div>
-                    <div class="footer-2">
-                        <div class="footer-2__heading">Our Services</div>
-                        <div class="footer-2__items">
-                            <p class="footer-2__items-paira">Lunch</p>
-                            <p class="footer-2__items-paira">Dinner</p>
-                            <p class="footer-2__items-paira">Carring</p>
-                            <p class="footer-2__items-paira">Privacy</p>
-                        </div>
-                    </div>
-                    <div class="footer-2">
-                        <div class="footer-2__heading">Contact Us</div>
-                        <div class="footer-2__items">
-                            <p class="footer-2__items-paira"><i class="fas fa-phone-alt"></i> +91 0000000000</p>
-                            <p class="footer-2__items-paira"><i class="fas fa-envelope"></i> saigreen@gmail.com</p>
-                            <p class="footer-2__items-paira"> <i class="fas fa-map-marker-alt"></i> Bukarro,Jarkhand</p>
-                        </div>
+                    <div class="footer-1__logo">
+                        <div class="footer-1__logo-icon"><i class='bx bxl-instagram-alt'></i></div>
+                        <div class="footer-1__logo-icon"><i class='bx bxl-facebook-square'></i></div>
+                        <div class="footer-1__logo-icon"><i class='bx bxl-twitter'></i></div>
+                        <div class="footer-1__logo-icon"><i class='bx bxl-youtube'></i></div>
                     </div>
                 </div>
-            </footer>
-        </div>
+                <div class="footer-2">
+                    <div class="footer-2__heading">Information</div>
+                    <div class="footer-2__items">
+                        <p class="footer-2__items-paira">About Us</p>
+                        <p class="footer-2__items-paira">More Search</p>
+                        <p class="footer-2__items-paira">Online Order</p>
+                        <p class="footer-2__items-paira">Support</p>
+                    </div>
+                </div>
+                <div class="footer-2">
+                    <div class="footer-2__heading">Our Services</div>
+                    <div class="footer-2__items">
+                        <p class="footer-2__items-paira">Lunch</p>
+                        <p class="footer-2__items-paira">Dinner</p>
+                        <p class="footer-2__items-paira">Carring</p>
+                        <p class="footer-2__items-paira">Privacy</p>
+                    </div>
+                </div>
+                <div class="footer-2">
+                    <div class="footer-2__heading">Contact Us</div>
+                    <div class="footer-2__items">
+                        <p class="footer-2__items-paira"><i class="fas fa-phone-alt"></i> +91 0000000000</p>
+                        <p class="footer-2__items-paira"><i class="fas fa-envelope"></i> saigreen@gmail.com</p>
+                        <p class="footer-2__items-paira"> <i class="fas fa-map-marker-alt"></i> Bukarro,Jarkhand</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
     </div>
 </body>
 
